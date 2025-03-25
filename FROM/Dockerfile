@@ -4,5 +4,5 @@
 # RHEL9 - CentOS -almaliux
 
 FROM almalinux:9 
-
+RUN dnf install nginx -y
 
